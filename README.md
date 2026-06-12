@@ -186,3 +186,123 @@ Feel free to open an **issue** or **pull request** if you have tools to add or i
 - CSP Cheatsheet: list of **CSPs and relative bypass** possibilities
 - JSONP Endpoints: list of **well-known JSONP Endpoints**
 - Web Payloads: list of **Web Payloads** of various techniques
+
+## Pwn
+
+### Tools
+
+- Syscall Reference: **x86 / x64 syscalls manual** with registers value
+- Asm/Disasm: online **x86 / x64 assembler and disassembler**
+- LibC Check: find all the **possible libc versions** with symbol name and entry address
+- BinaryNinja: online **binary file decompiler**
+- DogBolt: online **binary file decompiler** with different options like Ghidra and BinaryNinja
+- [shellphish/how2heap](https://github.com/shellphish/how2heap): **Heap exploitation techniques** educational repository
+- [Gallopsled/pwntools](https://github.com/Gallopsled/pwntools): **CTF/exploit dev framework** for rapid binary exploitation
+- [RPISEC/MBE](https://github.com/RPISEC/MBE): **Binary exploitation course** with hands-on labs
+- [AFLplusplus/AFLplusplus](https://github.com/AFLplusplus/AFLplusplus): **Fuzzing framework** with coverage-guided mutation
+- [google/AFL](https://github.com/google/AFL): **American Fuzzy Lop** original fuzzing engine
+- [QilingFramework/qiling](https://github.com/QilingFramework/qiling): **Binary emulation framework** with cross-platform support
+- [trailofbits/manticore](https://github.com/trailofbits/manticore): **Symbolic execution** tool for smart contract and binary analysis
+- [angr/angr](https://github.com/angr/angr): **Binary analysis platform** with automated exploitation capabilities
+- [pwndbg/pwndbg](https://github.com/pwndbg/pwndbg): **GDB exploit-dev plugin** with enhanced debugging features
+- [hugsy/gef](https://github.com/hugsy/gef): **GDB enhanced features** for exploit development and reversing
+- [longld/peda](https://github.com/longld/peda): **GDB exploit dev assistant** with Python enhancements
+- [scwuaptx/Pwngdb](https://github.com/scwuaptx/Pwngdb): **GDB plugin for pwn** with heap and libc helpers
+- [niklasb/libc-database](https://github.com/niklasb/libc-database): **Libc identification** database for ROP and ret2libc
+- [xairy/linux-kernel-exploitation](https://github.com/xairy/linux-kernel-exploitation): **Kernel exploitation notes** and techniques collection
+- [google/honggfuzz](https://github.com/google/honggfuzz): **Security-oriented fuzzer** with feedback-driven fuzzing
+- [nomi-sec/PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub): **PoC tracker** for public proof-of-concept exploits
+- [SecWiki/windows-kernel-exploits](https://github.com/SecWiki/windows-kernel-exploits): **Windows kernel exploits** collection and resources
+- [googleprojectzero/fuzzilli](https://github.com/googleprojectzero/fuzzilli): **JavaScript engine fuzzer** with structured mutation
+- [googleprojectzero/Jackalope](https://github.com/googleprojectzero/Jackalope): **Coverage-guided fuzzer** for binary targets
+- [google/syzkaller](https://github.com/google/syzkaller): **Kernel fuzzer** for Linux syscall fuzzing
+
+### Resources
+
+## Forensics
+
+### Tools
+
+- Forensically: **online forensic analysis tool** to extract cool data from images, ..
+- Autopsy: **file recovery tool** with data carving, ..
+- Foremost: **file recovery tool** based on their magic bytes, headers, ..
+- [volatilityfoundation/volatility](https://github.com/volatilityfoundation/volatility): **Memory forensics framework** for RAM dump analysis
+- [volatilityfoundation/volatility3](https://github.com/volatilityfoundation/volatility3): **Modern memory forensics** with Python 3 rewrite
+- [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit): **Disk forensic toolkit** for filesystem analysis
+- [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor): **Endpoint visibility/DFIR** platform for incident response
+- [google/grr](https://github.com/google/grr): **Remote live forensics** framework for enterprise hunting
+- [log2timeline/plaso](https://github.com/log2timeline/plaso): **Timeline generation** engine for super timelining
+- [google/timesketch](https://github.com/google/timesketch): **Collaborative timeline analysis** for forensic investigations
+- [google/turbinia](https://github.com/google/turbinia): **Forensic automation** framework for scalable processing
+- [ForensicArtifacts/artifacts](https://github.com/ForensicArtifacts/artifacts): **Forensic artifact definitions** for cross-tool compatibility
+- [DFIR-ORC/dfir-orc](https://github.com/DFIR-ORC/dfir-orc): **Live response collector** for Windows evidence gathering
+- [Cyb3rWard0g/HELK](https://github.com/Cyb3rWard0g/HELK): **Hunt ELK stack** for threat hunting and log analysis
+- [JPCERTCC/LogonTracer](https://github.com/JPCERTCC/LogonTracer): **Logon event visualization** for attack path analysis
+- [WithSecureLabs/chainsaw](https://github.com/WithSecureLabs/chainsaw): **Windows event hunting** with Sigma rule support
+- [Yamato-Security/hayabusa](https://github.com/Yamato-Security/hayabusa): **Windows event triage** with fast forensics parsing
+- [EricZimmerman/RegistryPlugins](https://github.com/EricZimmerman/RegistryPlugins): **Registry parser plugins** for Windows artifact extraction
+- [EricZimmerman/RECmd](https://github.com/EricZimmerman/RECmd): **Windows registry parser** command-line tool
+- [EricZimmerman/AmcacheParser](https://github.com/EricZimmerman/AmcacheParser): **Amcache artifact parser** for execution evidence
+- [SekoiaLab/Fastir_Collector](https://github.com/SekoiaLab/Fastir_Collector): **Windows evidence collection** tool for IR
+- [mandiant/commando-vm](https://github.com/mandiant/commando-vm): **Windows security distro** for penetration testing and forensics
+- [Invoke-IR/PowerForensics](https://github.com/Invoke-IR/PowerForensics): **PowerShell forensics** module for live disk analysis
+
+### Resources
+
+## OSINT
+
+- Mail from LinkedIn: Chrome extension to **find email addresses from Linkedin page**
+- Wayback Machine: **webpage archive at a certain time**
+- Sherlock: hunt down **social media accounts by username**
+- Email lookup: tool to **retrieve information linked to an email address**
+- [owasp-amass/amass](https://github.com/owasp-amass/amass): **Attack-surface enumeration** with deep DNS and web mapping
+- [projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder): **Subdomain discovery** with passive and active sources
+- [projectdiscovery/dnsx](https://github.com/projectdiscovery/dnsx): **DNS toolkit** for fast multi-purpose DNS probing
+- [projectdiscovery/httpx](https://github.com/projectdiscovery/httpx): **HTTP probing toolkit** with advanced fingerprinting
+- [projectdiscovery/naabu](https://github.com/projectdiscovery/naabu): **Port scanner** with host discovery capabilities
+- [projectdiscovery/katana](https://github.com/projectdiscovery/katana): **Crawling and spidering** tool for modern web endpoints
+- [tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder): **Domain asset discovery** with recursive enumeration
+- [tomnomnom/httprobe](https://github.com/tomnomnom/httprobe): **HTTP service probing** for live web server detection
+- [tomnomnom/waybackurls](https://github.com/tomnomnom/waybackurls): **Wayback URL collection** from Archive.org historical data
+- [tomnomnom/gf](https://github.com/tomnomnom/gf): **Pattern matching wrapper** for grep on URLs and responses
+- [lc/gau](https://github.com/lc/gau): **GetAllURLs crawler** with multiple source aggregation
+- [ffuf/ffuf](https://github.com/ffuf/ffuf): **Fast web fuzzer** for directory and parameter discovery
+- [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch): **Web path brute forcing** with wordlist optimization
+- [s0md3v/Photon](https://github.com/s0md3v/Photon): **Web crawler** for OSINT data extraction and API mapping
+- [laramies/theHarvester](https://github.com/laramies/theHarvester): **OSINT recon** tool for email and subdomain gathering
+- [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock): **Username hunting** across hundreds of social platforms
+- [soxoj/maigret](https://github.com/soxoj/maigret): **Account enumeration** with detailed profile parsing
+- [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot): **OSINT automation** platform with modular reconnaissance
+- [sundowndev/PhoneInfoga](https://github.com/sundowndev/PhoneInfoga): **Phone-number OSINT** with advanced lookup techniques
+- [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer): **Social profile analysis** for identity correlation
+
+## Reversing
+
+### Tools
+
+- Online Decompiler: online tool to decompile **Java classes, APKs,...**
+- MobSF: tool to **decompile and reverse APK** files
+- JADX: tools for producing Java source code from **Android Dex and APK** files
+- NB: strings is useful also on APK files
+- [radareorg/radare2](https://github.com/radareorg/radare2): **Reverse engineering framework** with disassembler and debugger
+- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra): **Software reverse engineering** suite by NSA
+- [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg): **Windows debugger** for x64 and x32 applications
+- [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy): **File type/packer detection** for malware identification
+- [mandiant/capa](https://github.com/mandiant/capa): **Malware capability detection** with rule-based analysis
+- [mandiant/capa-rules](https://github.com/mandiant/capa-rules): **Capa rule set** for behavior identification
+- [mandiant/flare-vm](https://github.com/mandiant/flare-vm): **Malware analysis VM** with pre-installed reversing tools
+- [mandiant/flare-floss](https://github.com/mandiant/flare-floss): **String deobfuscation** for encoded malware strings
+- [mandiant/speakeasy](https://github.com/mandiant/speakeasy): **Windows malware emulator** for API behavior analysis
+- [avast/retdec](https://github.com/avast/retdec): **Retargetable decompiler** for multiple architectures
+- [hasherezade/pe-sieve](https://github.com/hasherezade/pe-sieve): **Process scanner** for in-memory malware detection
+- [hasherezade/hollows_hunter](https://github.com/hasherezade/hollows_hunter): **Process hollowing detector** for injection analysis
+- [lief-project/LIEF](https://github.com/lief-project/LIEF): **Executable parsing/manipulation** library for PE/ELF/MachO
+- [DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio): **Dynamic instrumentation** platform for runtime analysis
+- [capstone-engine/capstone](https://github.com/capstone-engine/capstone): **Disassembly framework** with multi-architecture support
+- [unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn): **CPU emulator** for lightweight binary execution
+- [keystone-engine/keystone](https://github.com/keystone-engine/keystone): **Assembler framework** for multi-platform shellcode
+- [WerWolv/ImHex](https://github.com/WerWolv/ImHex): **Hex editor/reverse toolkit** with pattern language
+- [corkami/pocs](https://github.com/corkami/pocs): **Binary format PoCs** for file structure research
+- [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode): **Malware source archive** for analysis and education
+
+### Resources
