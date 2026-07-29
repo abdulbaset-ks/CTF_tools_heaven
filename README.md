@@ -63,6 +63,7 @@ Feel free to open an **issue** or **pull request** if you have tools to add or i
 - [openwall/john](https://github.com/openwall/john): **Password cracking** framework and hash recovery tool
 - [hashcat/hashcat](https://github.com/hashcat/hashcat): **Password recovery engine** with GPU acceleration
 - [Ciphey/Ciphey](https://github.com/Ciphey/Ciphey): **Automated crypto decoding** and ciphertext identification tool
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) : Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes.
 - [nmap/nmap](https://github.com/nmap/nmap): **Network discovery and scanning** utility
 - [wireshark/wireshark](https://github.com/wireshark/wireshark): **Packet analysis** and network protocol inspection tool
 - [secdev/scapy](https://github.com/secdev/scapy): **Packet crafting library** for network manipulation
